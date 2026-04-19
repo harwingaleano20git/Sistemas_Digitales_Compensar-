@@ -1,0 +1,29 @@
+# Detector de Color con CNY70 y Arduino
+
+## Descripción
+Este proyecto implementa un detector de color utilizando el sensor CNY70 y Arduino Uno. El sistema detecta diferencias de reflectividad en superficies, permitiendo clasificar colores como claro u oscuro.
+
+## Materiales
+- Arduino Uno
+- Sensor CNY70
+- Resistencias 220Ω y 10kΩ
+- LED
+- Protoboard
+- Cables
+
+## Funcionamiento
+El sensor emite luz infrarroja hacia una superficie. Dependiendo del color, la luz reflejada varía. El Arduino lee esta señal analógica y la procesa para determinar el tipo de superficie.
+
+## Conexión
+- Salida del sensor → A0
+- LED → Pin 2
+- Resistencias según divisor de voltaje
+
+## Uso
+1. Conectar el circuito
+2. Cargar el código en Arduino
+3. Abrir el monitor serial
+4. Observar valores según superficie
+
+## Autor
+Harwin Galeano
